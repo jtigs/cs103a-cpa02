@@ -1,0 +1,16 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Garamond, serif;
+  background-color: rgb(39, 40, 42);
+  color:rgb(255, 255, 255)
+}
+
+table {
+  font: 14px "Lucida Grande", Garamond, serif;
+  background-color: rgb(39, 40, 42);
+  color:rgb(255, 255, 255)
+}
+
+a {
+  color: #ff0101;
+}

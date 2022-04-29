@@ -1,0 +1,50 @@
+
+<style>
+    h1 {text-align: center; color: rgb(247, 247, 247)}
+    p {text-align: center;}
+    div {text-align: center;}
+    img {text-align: center;}
+
+    </style>
+    
+    <div class="jumbotron">
+        <h1>Ramen Review Search</h1>
+        <p></p>
+    </div>
+
+    <p class="p-3 m-3 border border-primary" style = "background-color:rgb(106, 106, 106)">
+        This website allows users to search multiple ramen ratings from different users.
+    </p>
+    
+    <% if (true || loggedIn) {%>  
+        <form method="post" action="/ratings/byBrand">
+            Show Reviews by Brand: 
+              <input type="text" name="brand" 
+                     placeholder="e.g. Nissin">
+            <input type="submit">
+        </form>
+        <br>
+        <form method="post" action="/ratings/byStyle">
+            Show Reviews by Style: 
+            <input type="text" name="style" 
+                   placeholder="e.g. Cup">
+            <input type="submit">
+        </form>
+        <br>
+        <form method="post" action="/ratings/byVariety">
+            Show Reviews by Variety: 
+              <input type="text" name="word" 
+                     placeholder="e.g. Shrimp">
+            <input type="submit">
+        </form>
+        <br>
+       
+
+        <hr>
+<img src="/images/314318ramen.png" width="400" height="300" alt="attempt at ramen">
+
+        
+
+    <% } %>
+
+

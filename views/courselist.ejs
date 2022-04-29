@@ -1,0 +1,32 @@
+<h1>Reviews: </h1>
+Here we want a ul list with the brand, variety, style, and stars rating from each review.
+<hr>
+<table class="table table-bordered" style = "color: rgb(255, 255, 255);">
+    <thead>
+        <tr>
+            <th>Brand</th>
+            <th>Variety</th>
+            <th>Style</th>
+            <th>Stars</th>
+        </tr>
+    </thead>
+    <tbody></tbody>
+    <% for (rating of ratings) {
+        const brand = rating['brand'];
+        const variety = rating['variety'];
+        const style = rating['style'];
+        const stars= rating['stars']
+         %>
+      <tr class="mb-2"  style = "color: rgb(255, 255, 255);"> 
+        <td> <%=brand %> </td>
+        <td> <%=variety %> </td>
+        <td> <%=style %> </td>
+        <td> <%=stars %> </td>
+    </tr>
+    <% } %>
+    </tbody>
+</table>
+
+<pre>
+ 
+</pre>
