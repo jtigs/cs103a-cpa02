@@ -22,7 +22,7 @@ const Rating = require('./models/Rating')
 const Schedule = require('./models/Schedule')
 
 // *********************************************************** //
-//  Loading JSON datasets
+//  Loading JSON datasets!
 // *********************************************************** //
 const ratings = require('./public/data/ratings.json')
 
