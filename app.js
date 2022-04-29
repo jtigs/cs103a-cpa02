@@ -26,7 +26,7 @@ const Schedule = require('./models/Schedule')
 // *********************************************************** //
 const ratings = require('./public/data/ratings.json')
 
-
+//databse//
 // *********************************************************** //
 //  Connecting to the database
 // *********************************************************** //
