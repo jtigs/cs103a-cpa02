@@ -34,7 +34,7 @@ const ratings = require('./public/data/ratings.json')
 const mongoose = require( 'mongoose' );
 const dotenv = require('dotenv');
 dotenv.config();
-const mongodb_URI = `mongodb+srv://${process.env.db_USERNAME}:${process.env.db_PASSWORD}@cluster0.ttrtu.mongodb.net/test`
+const mongodb_URI = `mongodb+srv://${process.env.DB_USERNAME}:${process.env.DB_PASSWORD}@cluster0.ttrtu.mongodb.net/test`
 
 
 
