@@ -272,7 +272,7 @@ app.use(function(err, req, res, next) {
 // *********************************************************** //
 //  Starting up the server!
 // *********************************************************** //
-//Here we set the port to use between 1024 and 65535  (2^16-1)
+//Here we set the port to use between  1024 and 65535  (2^16-1)
 const port = 4999;
 app.set("port", port);
 
